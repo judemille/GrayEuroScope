@@ -2,6 +2,8 @@
 Let's face it, EuroScope is ugly.
 The green color it has doesn't even match the real-world TopSky system, and it just looks bad.
 Well, here's a solution! This will make your EuroScope a pleasant dark gray.
+
+This is distributed as a binary patch to avoid copyright issues.
 # NOTE: THIS IS MADE FOR EUROSCOPE 3.2.3. OTHER VERSIONS WILL BREAK.
 The steps are simple:
  - Get [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher) and extract it somewhere.
