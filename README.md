@@ -9,7 +9,8 @@ The steps are simple:
  - Get [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher) and extract it somewhere.
  - Once you've gotten DeltaPatcher and extracted it, open it up.
  - Select the EuroScope exe as the original file.
- - Select "EuroScope.exe.xdelta" from this repository as the XDelta patch.
+ - If you are running under Windows, select "ESGrayPatch_Windows.xdelta" from this repository as the XDelta patch.
+ - If you are running under Wine (MacOS or Linux), select "ESGrayPatch_Wine.xdelta" from this repository as the XDelta patch.
  - Press apply patch.
 
 Your EuroScope is now dark gray. If you would like your TopSky to match, copy the lines from
