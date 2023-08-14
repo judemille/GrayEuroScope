@@ -6,7 +6,7 @@ Well, here's a solution! This will make your EuroScope a pleasant dark gray.
 This is distributed as a binary patch to avoid copyright issues.
 # NOTE: THIS IS MADE FOR EUROSCOPE 3.2.3. OTHER VERSIONS WILL BREAK.
 The steps are simple:
- - Get [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher) and extract it somewhere.
+ - Get [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher/releases/latest) and extract it somewhere.
  - Once you've gotten DeltaPatcher and extracted it, open it up.
  - Select the EuroScope exe as the original file.
  - If you are running under Windows, select "ESGrayPatch_Windows.xdelta" from this repository as the XDelta patch.
@@ -16,6 +16,12 @@ The steps are simple:
 Your EuroScope is now dark gray. If you would like your TopSky to match, copy the lines from
 this repository's TopSkySettingsLocal.txt into the file in your EuroScope profile directory
 of the same name. The chat box will stay green by default, but you can fix that in the symbology settings.
+
+## Screenshots
+
+![First screenshot.](Screenshots/Screenshot1.png)
+This second screenshot shows the TopSky color scheme working too:
+![Second screenshot, showing TopSky theme.](Screenshots/Screenshot2.png)
 
 ## Color Palette
  - `#262626`
