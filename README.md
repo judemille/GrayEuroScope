@@ -1,16 +1,19 @@
 # EuroScope, but in dark gray!
 Let's face it, EuroScope is ugly.
 The green color it has doesn't even match the real-world TopSky system, and it just looks bad.
-Well, here's a solution! This will make your EuroScope a pleasant dark gray.
+It matches the real-world Matias system from Hungary, which is great if you're controlling Hungary,
+but if you're controlling elsewhere it's just ugly. Should you be a controller for *not* Hungary,
+here's a solution! This will make your EuroScope a pleasant dark gray.
 
 This is distributed as a binary patch to avoid copyright issues.
-# NOTE: THIS IS MADE FOR EUROSCOPE 3.2.3. OTHER VERSIONS WILL BREAK.
+# NOTE: THIS IS MADE FOR EUROSCOPE 3.2.3. ANY OTHER VERSION WILL BREAK.
 The steps are simple:
+ - If you have already installed this patch and are installing a new version, restore the original exe through whatever means. (running the installer in repair mode works.)
  - Get [DeltaPatcher](https://github.com/marco-calautti/DeltaPatcher/releases/latest) and extract it somewhere.
+ - Make a backup of your EuroScope exe. You can always repair the install with the ES installer, but it's handy to have.
  - Once you've gotten DeltaPatcher and extracted it, open it up.
  - Select the EuroScope exe as the original file.
- - If you are running under Windows, select "ESGrayPatch_Windows.xdelta" from this repository as the XDelta patch.
- - If you are running under Wine (MacOS or Linux), select "ESGrayPatch_Wine.xdelta" from this repository as the XDelta patch.
+ - Select ESDarkGray.xdelta from this repository as the XDelta patch.
  - Press apply patch.
 
 Your EuroScope is now dark gray. If you would like your TopSky to match, copy the lines from
@@ -37,7 +40,8 @@ a light gray too some time.
 There were two nuts to crack here. The first was relatively easy -- there are several bitmaps inside
 the EuroScope executable that contain a lot of icons and knick knacks. I had to extract these, edit
 them by hand to match the new color scheme, save them, and stuff them back in the EXE. Once I found
-a suitable tool ([RisohEditor](https://github.com/katahiromz/RisohEditor) works the best, from my testing.), it was merely a question of editing these bitmaps en masse and then stuffing them back in.
+a suitable tool ([RisohEditor](https://github.com/katahiromz/RisohEditor) works the best, from my testing.),
+it was merely a question of editing these bitmaps en masse and then stuffing them back in.
 Repetitive, but relatively simple, *except* in the case of text. Text in these bitmaps seemed to
 be dithered, which meant I couldn't just toss the paint bucket on it. I've tried my best to match the
 text as close as possible, though dithering has been removed, and some text has been re-rendered.
