@@ -1,3 +1,6 @@
+# OBSOLETE
+19wintersp's [custom-euroscope](https://19wintersp.github.io/custom-euroscope/) does the job better. Go use that.
+
 # EuroScope, but in dark gray!
 Let's face it, EuroScope is ugly.
 The green color it has doesn't even match the real-world TopSky system, and it just looks bad.
